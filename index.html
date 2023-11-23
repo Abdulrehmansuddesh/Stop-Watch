@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600;9..40,900&family=Satisfy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Stop Watch</title>
+</head>
+<body>
+
+   <div class="header">
+
+       <div class="stopwatch">
+            <div>
+                <h1 id="hours">00</h1>
+                <h5>hours</h5>
+            </div>
+           <div>
+               <h1 id="min">00</h1>
+               
+               <h5>Min </h5>
+           </div>
+
+           <div>
+               <h1 id="sec">00</h1>
+               <h5>Sec</h5>
+           </div>
+
+           <div>
+               <h1 id="msec">00</h1>
+               <h5>Msec</h5>
+           </div>
+
+       </div>
+
+
+       <div class="btn">
+           <button onclick="start(this)">Start</button>
+           <button onclick="stop()">Stop</button>
+           <button onclick="reset()">Reset</button>
+       </div> 
+
+   
+
+
+</body>
+<script src="app.js"></script>
+</html>
